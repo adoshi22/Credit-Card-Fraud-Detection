@@ -32,10 +32,10 @@ It has the following attributes:
 
 We have performed a number of data processing tasks throughout the notebook, to progressively increase the quality of our analyses.
 
-### 1. The data set was highly unbalanced, with a large number of observations for legitimate transactrions (6,354,407) and very few observations (8213) for fraudulent transactions.Considering the huge size of the dataset, we chose to undersample the majority class using the resample module from sklearn.utils.
+1. The data set was highly unbalanced, with a large number of observations for legitimate transactrions (6,354,407) and very few observations (8213) for fraudulent transactions.Considering the huge size of the dataset, we chose to undersample the majority class using the resample module from sklearn.utils.
 
-### 2. In order to obtain a better visualization of the relationship between the amount feature and class of the transactions, we divided the data into bins using qcut on amount. We classified each amount into a low, medium, or high amount bin.
+2. In order to obtain a better visualization of the relationship between the amount feature and class of the transactions, we divided the data into bins using qcut on amount. We classified each amount into a low, medium, or high amount bin.
 
-### 3. As mentioned earlier, data was provided for 30 days or 744 steps where each step represented an hour of time. To analyze the relationship between transaction class and the time of day, we assigned each transaction an hour of the day (between 0 and 23). Since there are 24 hours in a day, we achieved this by dividing the corresponding step by 24.
+3. As mentioned earlier, data was provided for 30 days or 744 steps where each step represented an hour of time. To analyze the relationship between transaction class and the time of day, we assigned each transaction an hour of the day (between 0 and 23). Since there are 24 hours in a day, we achieved this by dividing the corresponding step by 24.
 
-### 4. As is observed later, certain transactions had virtually zero instances of fraud. In order to obtain improved accuracy for the machine learning algorithms, we subsequently removed certain types of transactions (CASH_IN, DEBIT, PAYMENT) which were skewing our results.
+4. As is observed later, certain transactions had virtually zero instances of fraud. In order to obtain improved accuracy for the machine learning algorithms, we subsequently removed certain types of transactions (CASH_IN, DEBIT, PAYMENT) which were skewing our results.
