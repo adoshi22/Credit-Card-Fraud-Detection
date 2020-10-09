@@ -40,6 +40,15 @@ We have performed a number of data processing tasks throughout the notebook, to 
 
 4. As is observed later, certain transactions had virtually zero instances of fraud. In order to obtain improved accuracy for the machine learning algorithms, we subsequently removed certain types of transactions (CASH_IN, DEBIT, PAYMENT) which were skewing our results.
 
+## Conclusion
+
+We summarize our findings as follows:
+
+* Fraudulent transactions only exist in CASH_OUT and TRANSFER type of transactions.
+* Accounts with funds more than a particular threshold are a bigger target for fraudsters.
+* Fraudulent transactions can potentially occur during any time of the day.
+* Machine learning via logistic regression results in a higher accuracy rate for this data.
+
 ## References
 * (https://www.kaggle.com/ntnu-testimon/paysim1)
 * (https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
