@@ -40,6 +40,16 @@ We have performed a number of data processing tasks throughout the notebook, to 
 
 4. As is observed later, certain transactions had virtually zero instances of fraud. In order to obtain improved accuracy for the machine learning algorithms, we subsequently removed certain types of transactions (CASH_IN, DEBIT, PAYMENT) which were skewing our results.
 
+
+## Machine Learning: K-means Clustering and Logistic Regression
+
+We decided to predict the class of the transactions using two machine learning algorithms and subsequently compare their performance.
+
+* K-means clustering
+* Logistic Regression
+
+For both these algorithms, we use amount, oldbalanceOrg, newbalanceOrig, nameDest, oldbalanceDest, newbalanceDest as a part of the feature set. 80% of the data set is the training set and 20% is the test set. For both these methods, we first run the algorithms on the undersampled dataset and then on the updated undersampled dataset. The updated undersampled datasets consist of only those transaction types that consist of both legitimate and fraudulent transactions.
+
 ## Conclusion
 
 We summarize our findings as follows:
@@ -54,3 +64,8 @@ We summarize our findings as follows:
 * (https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
 * (http://bth.diva-portal.org/smash/get/diva2:955852/FULLTEXT06.pdf)
 * (https://scikit-learn.org/stable/)
+
+## Authors
+[Anuj Doshi](https://github.com/adoshi22)
+[Nikita Chinchwade]
+[Chongwen Sun]
