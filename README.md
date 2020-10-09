@@ -28,6 +28,9 @@ It has the following attributes:
 * isFraud - transactions made by the fraudulent agents inside the simulation.
 * isFlaggedFraud - to control massive transfers from one account to another illegal attempts are flagged.
 
+[Dataset](https://www.kaggle.com/ntnu-testimon/paysim1)
+
+
 ## Data processing Tasks
 
 We have performed a number of data processing tasks throughout the notebook, to progressively increase the quality of our analyses.
