@@ -67,5 +67,4 @@ We summarize our findings as follows:
 
 ## Authors
 [Anuj Doshi](https://github.com/adoshi22)
-[Nikita Chinchwade]
-[Chongwen Sun]
+
