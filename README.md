@@ -40,4 +40,8 @@ We have performed a number of data processing tasks throughout the notebook, to 
 
 4. As is observed later, certain transactions had virtually zero instances of fraud. In order to obtain improved accuracy for the machine learning algorithms, we subsequently removed certain types of transactions (CASH_IN, DEBIT, PAYMENT) which were skewing our results.
 
-
+## References
+* (https://www.kaggle.com/ntnu-testimon/paysim1)
+* (https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
+* (http://bth.diva-portal.org/smash/get/diva2:955852/FULLTEXT06.pdf)
+* (https://scikit-learn.org/stable/)
